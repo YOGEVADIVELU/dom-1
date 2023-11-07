@@ -1,0 +1,19 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: burlywood;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color:brown;
+    
+}
+h2{
+    text-transform: capitalize;
+    color: crimson;
+}
+p{
+    font-size: 20px;
+    text-indent: 10px;
+}

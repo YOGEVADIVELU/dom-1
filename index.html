@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object model
+    </title>
+    <link rel="stylesheet"  href="css/style.css">
+</head> 
+<body>
+    <div class="head">
+        <h1>doument objet model</h1>
+    </div>
+    <h2> get elements by id</h2>
+    <p id="one">find an element by the id</p>
+    <p id="two"></p>
+    <script>
+        const ele=document.getElementById("one");
+        document.getElementById("two").innerHTML=
+        "The DOM is used to  " + ele.innerHTML;
+    </script>
+
+
+<h2>change the content</h2>
+<p id="dom">the content written should be channged</p>
+<script>
+    document.getElementById("dom").innerHTML=
+    "the written content can be chaned by.innerHTML";
+</script>
+
+<h2>styling the element </h2>
+<p id="element">the written content an be styled by javasript also</p>
+<p id="object"> it is not only to be styled in stylesheet</p>
+
+<script>
+
+    document.getElementById("element").style.color="green";
+    document.getElementById("object").style.color="grey";
+    document.getElementById("element").style.backgroundColor="yellow";
+
+</script>
+
+
+</body>
+</html>
